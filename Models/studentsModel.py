@@ -2,12 +2,12 @@
 from sqlalchemy import Column, Integer, String, DateTime
 
 # Importa la clase declarative_base de SQLAlchemy, que se utiliza para definir modelos de datos.
-from sqlalchemy.orm import declarative_base
+from sqlalchemy.orm import declarative_base 
 
-# Crea una instancia de la clase declarative_base y la almacena en la variable Base.
+# Crea una instancia de la clasee declarative_base y la almacena en la variable Base.
 Base = declarative_base()
 
-# Define la clase StudentModel, que hereda de la clase Base, lo que significa que se trata de un modelo de datos SQLAlchemy.
+# Define la clase StudentModel, quee hereda de la clase Base, lo que significa que se trata de un modelo de datos SQLAlchemy.
 class StudentModel(Base):
     # Define el nombre de la tabla en la base de datos a la que se mapeará este modelo.
     __tablename__ = "Students"
