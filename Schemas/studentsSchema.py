@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from datetime import datetime
-
+#s
 class StudentSchema(BaseModel):
     Id: int
     FirstName: str
