@@ -4,7 +4,7 @@ from Models.studentsModel import StudentModel
 from Schemas.studentsSchema import StudentSchema
 from Config.database import SessionLocal
 
-# Crea un nuevo enrutador
+# Crea un nuevo enrutadorrr
 router = APIRouter()
 
 # Ruta para obtener todos los estudiantes
