@@ -7,7 +7,7 @@ from Config.database import SessionLocal
 # Crea un nuevo enrutadorrr
 router = APIRouter()
 
-# Ruta para obtener todos los estudiantes
+# Ruta para obtener todos los estudiantesdd
 @router.get("/students", tags=["Students"])
 async def get_all_students():
     try:
