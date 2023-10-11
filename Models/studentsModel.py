@@ -3,7 +3,7 @@ from sqlalchemy import Column, Integer, String, DateTime
 
 # Importa la clase declarative_base de SQLAlchemy, que se utiliza para definir modelos de datos.
 from sqlalchemy.orm import declarative_base 
-s
+
 # Crea una instancia de la clasee declarative_base y la almacena en la variable Base.
 Base = declarative_base()
 
