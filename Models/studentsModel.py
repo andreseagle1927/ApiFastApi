@@ -1,7 +1,7 @@
 # Importa las clases Column, Integer, String y DateTime de SQLAlchemy.
 from sqlalchemy import Column, Integer, String, DateTime
 
-# Importa la clase declarative_base de SQLAlchemy, que se utiliza para definir modelos de datos.
+# smporta la clase declarative_base de SQLAlchemy, que se utiliza para definir modelos de datos.
 from sqlalchemy.orm import declarative_base 
 
 # Crea una instancia de la clasee declarative_base y la almacena en la variable Base.
